@@ -1,0 +1,82 @@
+[
+    {
+      "question": "Cuál es el nombre de solista que utiliza el cantante de los Fabulosos Cadillacs?",
+      "choice1": "Guillermo Novellis",
+      "choice2": "Christian Puga",
+      "choice3": "Vicentico",
+      "choice4": "Ivan Noble",
+      "answer": 3
+    },
+    {
+      "question": "En qué banda cantaba Pity Alvarez antes de formar parte de Intoxicados?",
+      "choice1": "La 25",
+      "choice2": "Viejas Locas",
+      "choice3": "Guasones",
+      "choice4": "Supermerk2",
+      "answer": 2
+    },
+    {
+      "question": "A qué banda pertenece la canción \"Costumbres argentinas\"?",
+      "choice1": "Los Rodriguez",
+      "choice2": "Enanitos Verdes",
+      "choice3": "Los Tipitos",
+      "choice4": "Los Abuelos de la Nada",
+      "answer": 4
+    },
+    {
+      "question": "Cuál fue el primer disco solista de Gustavo Cerati?",
+      "choice1": "Bocanada",
+      "choice2": "Amor Amarillo",
+      "choice3": "Dinosaurio",
+      "choice4": "El Repasador",
+      "answer": 1
+    },
+    {
+      "question": "Cómo se llamaba el cantante de Sumo?",
+      "choice1": "Pappo",
+      "choice2": "Lito Vitale",
+      "choice3": "Luca Prodan",
+      "choice4": "Moura",
+      "answer": 3
+    },
+    {
+      "question": "Quién escribió la canción \"Muchacha ojos de papel\"?",
+      "choice1": "Gustavo Cerati",
+      "choice2": "Juan Carlos Baglietto",
+      "choice3": "Luis Alberto Spinetta",
+      "choice4": "Charly Garcia",
+      "answer": 3
+    },
+    {
+      "question": "En qué año surgió el hit \"La balsa\"?",
+      "choice1": "1967",
+      "choice2": "1978",
+      "choice3": "1982",
+      "choice4": "1961",
+      "answer": 1
+    },
+    {
+      "question": "Qué banda fue conformada por el hijo de Luis Alberto Spinetta y Emmanuel Horvilleur?",
+      "choice1": "Spinettalandia y sus amigos",
+      "choice2": "Invisible",
+      "choice3": "Illia Kuryaki and the Valderramas",
+      "choice4": "Ratones Paranoicos",
+      "answer": 3
+    },
+    {
+      "question": "Qué banda fue conformada por Miguel Cantilo y Pablo Durietz?",
+      "choice1": "Pedro y Pablo",
+      "choice2": "Los Gatos",
+      "choice3": "Manal",
+      "choice4": "Vox Dei",
+      "answer": 1
+    },
+    {
+      "question": "A qué banda pertenece el cantante Facundo Soto?",
+      "choice1": "Los Tipitos",
+      "choice2": "Guasones",
+      "choice3": "Los Piojos",
+      "choice4": "Estelares",
+      "answer": 2
+    }
+  ]

@@ -1,0 +1,286 @@
+
+*{
+font-family: garamond;
+margin: 0;
+padding: 0;
+}
+
+body{
+    padding: 10px;
+    margin: 10px 20px 40px 20px;
+    background-color: rgb(201, 199, 199);
+    font-size:large;
+    text-align: justify;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+header{
+    background-color: #444;
+    color: rgb(247, 245, 245);
+    font-size: x-large;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    margin-bottom: 30px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #444;
+    color: rgb(247, 245, 245);
+    font-size: 3;
+    margin: 70px 90px 0px 90px;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+nav{
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li.ju{
+    display: list-item;
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    font-size: larger;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 8px 40px;
+    border-style: solid;
+    color: rgb(247, 245, 245);
+    background-color: #444;
+}
+
+
+h1{
+    padding: 10px;
+    margin: 20px auto 20px auto; 
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2{
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    padding: 0px;
+    margin: auto;
+    font-size: 8;
+    text-decoration: underline;
+}
+
+img{
+    border-style: solid;
+    box-shadow: 2px 2px 50px 5px grey;
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+aside{
+    border-style:solid;
+    width: 175px;
+    height: 250px;
+    padding: 20px;
+    float:center;
+    text-align: justify;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(224, 223, 223);
+}
+
+figure{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.a2 {
+    
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+table{
+    width: 85%;
+}
+
+table, th, td{
+    padding: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px solid rgb(201, 199, 199);
+    border-collapse: collapse;
+    background-color: #444;
+    color: rgb(247, 245, 245);
+    height: 1.50em;
+}
+th{
+    text-align: center;
+}
+
+.td2 {
+    text-align: center;
+}
+
+.td3{
+    width: 33.33%;
+    vertical-align: sub;
+}
+
+form{
+    padding: 20px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 400px;
+
+}
+
+label  {
+    font-size: large;
+}
+
+input{
+    background-color: rgb(247, 245, 245);
+    border-radius: 5px;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.boton{
+    padding: 20px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 20%;
+    background-color: rgb(247, 245, 245);
+}
+
+.p2{
+    position: relative;
+    padding: 30px;
+    margin-left: 150px;
+}
+
+.a7{
+    border: 0px;
+    background-color: rgb(201, 199, 199);
+    padding: 0px;
+    color: black;
+    text-decoration: underline;
+}
+
+section.fline{
+    margin-top: 50px;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 300px;
+    overflow: scroll;
+}
+
+div.flex{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+@media (max-width: 480px) {
+    div.flex{
+      flex-direction: column;
+    }
+  }
+
+  img.flechita{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(270deg);
+    z-index: 1;
+    background-color: rgb(247, 245, 245);
+  }
+
+  img.logo{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
+
+  img.logon{
+    animation-name: arrastre;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+  }
+
+  @keyframes slidein{
+    from {
+        margin-left: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        transform: rotateY(360deg);    
+        }
+  }
+
+  @keyframes arrastre{
+    from {
+        margin-left: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        }
+  }
+
+  h3{
+    color: rgb(224, 223, 223) !important;
+  }
